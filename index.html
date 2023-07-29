@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shaala</title>                   
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <header id="headerTop">
+        <span id="logoText">
+            E-Shaala
+        </span>
+        <ul>
+            <a href="#"><li id="HomB" onclick="homeView()">Home</li></a>
+            <a href="#"><li onclick="certiView()">Certification</li></a>
+            <a href="#"><li onclick="courseView()">Courses</li></a>
+            <a href="#"><li onclick="aboutView()">About Us</li></a>
+            <a href="#"><li onclick="contactView()">Contact & Doubt</li></a>
+            <a href="#"><li onclick="loginsignupView()" id="LoginSignup">Login / Signup</li></a>
+        </ul>
+    </header>
+    <hr id="headerBar">
+
+    <main id="mainDiv">
+       
+        <h2 id="tagline">Online Free Education For All...</h2>
+        <h1 id="titleName">E-Shaala</h1>
+        <h2 id="features">Courses | Certificates | Live | 24x7</h2>
+        <input type="text" placeholder="Search Courses" id="searchBox">
+        <br>
+       
+        <img src="https://static.vecteezy.com/system/resources/previews/008/525/673/original/3d-illustration-character-high-school-boy-free-png.png" alt="" id="welcomeImage">
+        
+        <hr id="mainDivBar">
+        
+        <h2 class="homeContents">Companies and Universities</h2>
+        <ul>
+            <li id="cnu">Companies</li>
+            <li><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png" alt=""><span>Google</span></li>
+            <li><img src="https://freelogopng.com/images/all_img/1664035876new-meta-logo.png" alt=""><span>Meta</span></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Microsoft_icon.svg/2048px-Microsoft_icon.svg.png" alt=""><span>Microsoft</span></li>
+            <li><img src="https://static.vecteezy.com/system/resources/previews/019/766/223/original/amazon-logo-amazon-icon-transparent-free-png.png" alt=""><span>Amazon</span></li>
+            <li><img src="https://cdn.iconscout.com/icon/free/png-256/free-ibm-282120.png?f=webp" alt=""><span>IBM</span></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/256/6128/6128893.png" alt=""><span>Accenture</span></li>
+            <li id="manymore">and many more</li>
+        </ul>
+        <ul>
+            <li id="cnu">Universities</li>
+            <li><img src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fharvard.png?auto=format&cs=strip&fit=&h=50&ixlib=php-4.1.0&w=50&s=30b68f086455ad2bec74405936572cfc" alt=""><span>Harvard University</span></li>
+            <li><img src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fstanford.png?auto=format&cs=strip&fit=&h=50&ixlib=php-4.1.0&w=50&s=b6a50b81645a0464b9707e973cd56d65" alt=""><span>Stanford University</span></li>
+            <li><img src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fiitm.png?auto=format&cs=strip&fit=&h=50&ixlib=php-4.1.0&w=50&s=1007684f01baa2852d0e22af09654494" alt=""><span>IIT Madras</span></li>
+            <li><img src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fumich.png?auto=format&cs=strip&fit=&h=50&ixlib=php-4.1.0&w=50&s=48af57539712c29ce3c4be712a92dacb" alt=""><span>University of Michigan</span></li>
+            <li><img src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fmit.png?auto=format&cs=strip&fit=&h=50&ixlib=php-4.1.0&w=50&s=27c105363147f76c0e76399630b29871" alt=""><span>MIT</span></li>
+            <li><img src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fduke.png?auto=format&cs=strip&fit=&h=50&ixlib=php-4.1.0&w=50&s=68986dd6b7c565eb5963211f19302b2b" alt=""><span>Duke University</span></li>
+            <li id="manymore">and many more</li>
+        </ul>
+
+        <hr id="mainDivBar">
+      
+        <h2 class="homeContents">Popular Courses</h2>
+        <div class="popcourses">
+            <div class="coursecard">
+                <img src="https://365datascience.com/resources/blog/2019-10-python-everything-you-should-know-1024x576.jpg" alt="">
+                <p id="coursecardTitle">Python Full Course</p>
+                <p id="coursecardDetails">Become a Master Python Developer like 1,000,000+ learners.</p>
+                <p id="coursecardBtn">Start Now !</p>
+            </div>
+            <div class="coursecard">
+                <img src="https://codersera.com/blog/wp-content/uploads/2021/08/Data-Science-project-ideas-.jpeg" alt="">
+                <p id="coursecardTitle">Data Science Complete Course</p>
+                <p id="coursecardDetails">Become a Data Scientist from scratch with best roadmap.</p>
+                <p id="coursecardBtn">Start Now !</p>
+            </div>
+            <div class="coursecard">
+                <img src="https://www.creative-tim.com/blog/content/images/2022/07/UX-design-courses.jpg" alt="">
+                <p id="coursecardTitle">UI/UX Design Course</p>
+                <p id="coursecardDetails">Make all your imaginations true on websites with this course.</p>
+                <p id="coursecardBtn">Start Now !</p>
+            </div>
+        </div>
+        
+        <hr id="mainDivBar">
+    
+        <h2 class="homeContents">On-Demand Skills</h2>
+        <div class="ondem">
+            <div class="ondemcard">
+                <img src="https://cdn-icons-png.flaticon.com/256/2029/2029281.png" alt="">
+                <p id="ondemTitle">Data Science</p>
+                <p id="ondemBtn">View More</p>
+            </div>
+            <div class="ondemcard">
+                <img src="https://cdn-icons-png.flaticon.com/512/2535/2535516.png" alt="">
+                <p id="ondemTitle">Ethical Hacking</p>
+                <p id="ondemBtn">View More</p>
+            </div>
+            <div class="ondemcard">
+                <img src="https://cdn-icons-png.flaticon.com/512/5234/5234318.png" alt="">
+                <p id="ondemTitle">Web Designing</p>
+                <p id="ondemBtn">View More</p>
+            </div>
+            <div class="ondemcard">
+                <img src="https://cdn-icons-png.flaticon.com/512/3880/3880409.png" alt="">
+                <p id="ondemTitle">Animation VFX</p>
+                <p id="ondemBtn">View More</p>
+            </div>
+            <div class="ondemcard">
+                <img src="https://cdn-icons-png.flaticon.com/512/2092/2092663.png" alt="">
+                <p id="ondemTitle">Cyber Security</p>
+                <p id="ondemBtn">View More</p>
+            </div>
+        </div>
+       
+        <hr id="mainDivBar">
+
+    </main>
+
+    <div class="certification" id="certification">
+        <h2>Certifications and Tests</h2>
+        <hr id="certiBar">
+        
+        <div class="certiBox">
+            <div>
+                <div class="cBleft">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">Python : Level 01</p>
+                    <p id="testDetail">Python Beginner | 25 Questions | 60 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">Python : Level 02</p>
+                    <p id="testDetail">Python Intermediate | 30 Questions | 120 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">Python : Level 03</p>
+                    <p id="testDetail">Python Advanced | 15 Questions | 120 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">C++ Complete Test Series</p>
+                    <p id="testDetail">C++ Full Series | 50 Questions | 180 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://cdn.cdnlogo.com/logos/h/84/html.svg" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">HTML 5 : Web Developer</p>
+                    <p id="testDetail">HTML 5 Certification | 30 Questions | 90 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://static.cdnlogo.com/logos/c/18/css.svg" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">CSS : Web Developer</p>
+                    <p id="testDetail">CSS Certification | 30 Questions | 90 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://static.cdnlogo.com/logos/j/69/javascript.svg" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">JavaScript : Web Developer</p>
+                    <p id="testDetail">JS Certification | 30 Questions | 90 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Hey_Machine_Learning_Logo.png" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">Machine Learning</p>
+                    <p id="testDetail">Machine Learning Basics Test | 10 Questions | 120 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://cdn.cdnlogo.com/logos/o/38/openai.svg" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">Artificial Intelligence [GPT3]</p>
+                    <p id="testDetail">AI Certification | 10 Questions | 90 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://cdn.cdnlogo.com/logos/f/43/figma.svg" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">Figma Creator</p>
+                    <p id="testDetail">Figma Mega Certification | 20 Questions | 60 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://static.cdnlogo.com/logos/a/24/adobe-photoshop.png" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">Adobe PhotoShop Creator</p>
+                    <p id="testDetail">Adobe PS Full Test | 100 Questions | 180 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://www.pngall.com/wp-content/uploads/4/Cyber-Security-Logo-PNG.png" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">CyberSecurity Basics</p>
+                    <p id="testDetail">CyberSecurity A to Z | 25 Questions | 60 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://png.pngtree.com/png-vector/20190621/ourmid/pngtree-datasciencedata-sciencedollar-blue-dotted-line-line-icon-png-image_1489517.jpg" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">Data Science</p>
+                    <p id="testDetail">Data Science Certification | 25 Questions | 60 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-stock-chart-2654150-2205518.png" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">Stocks Fundamentals</p>
+                    <p id="testDetail">Stock Market Terminologies | 50 Questions | 100 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+            <div>
+                <div class="cBleft">
+                    <img src="https://cdn-icons-png.flaticon.com/256/226/226772.png" alt="" id="testlogo">
+                </div>
+                <div class="cBmid">
+                    <p>Start Test</p>
+                </div>
+                <div class="cBright">
+                    <p id="testTitle">Linux Commands Beginner</p>
+                    <p id="testDetail">Linux Certification Test | 30 Questions | 60 Minutes</p>
+                </div>
+            </div>
+            <hr id="certiBar">
+        </div>
+        <div>
+            <div id="certLoadMore">
+                <p>Load More...</p>
+            </div>
+        </div>
+        <hr id="certiBar">
+    </div>
+
+    <div class="courses" id="courses">
+        <h2>Courses</h2>
+        <hr id="coursesBar">
+        
+        <div class="courseContainer">
+            <div class="courseBox">
+                <img src="https://technicaleducations.com/timages/python.png" alt="">
+                <p id="courseTitle">Python Course</p>
+                <p id="courseDetails">Best Python Course by Meta.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+            <div class="courseBox">
+                <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg" alt="">
+                <p id="courseTitle">Web Development</p>
+                <p id="courseDetails">Most effective web development bootcamp.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+            <div class="courseBox">
+                <img src="https://d2qp0siotla746.cloudfront.net/img/use-cases/youtube-thumbnail/template_3.jpg" alt="">
+                <p id="courseTitle">Graphics Designing</p>
+                <p id="courseDetails">Designing Course by Adobe.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+        </div>
+
+        <div class="courseContainer">
+            <div class="courseBox">
+                <img src="https://ccweb.imgix.net/https%3A%2F%2Fimg.youtube.com%2Fvi%2F3PHXvlpOkf4%2Fhqdefault.jpg?ar=16%3A9&auto=format&cs=strip&fit=crop&h=380&ixlib=php-4.1.0&w=535&s=d56a6009446fdf27aba57ff9a3d27828" alt="">
+                <p id="courseTitle">JS Full Course</p>
+                <p id="courseDetails">15 Projects JS by freeCodeCamp.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+            <div class="courseBox">
+                <img src="https://i0.wp.com/lh3.googleusercontent.com/-e7zy95WSPVE/X_RxPPgu-2I/AAAAAAAAJwM/VazGO9ThmeMqwBKt2KMqYKgusJy_Zy1pwCLcBGAsYHQ/image.png?ssl=1" alt="">
+                <p id="courseTitle">Adobe PhotoShop</p>
+                <p id="courseDetails">PS Course by Adobe.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+            <div class="courseBox">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb4SVwmQRqxszwwuqlH3zGeRfmwrsIeRukVw&usqp=CAU" alt="">
+                <p id="courseTitle">Git & GitHub Crash Course</p>
+                <p id="courseDetails">VCS Course in Git.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+        </div>
+
+        <div class="courseContainer">
+            <div class="courseBox">
+                <img src="https://www.freecodecamp.org/news/content/images/2019/10/css.png" alt="">
+                <p id="courseTitle">CSS Full Course</p>
+                <p id="courseDetails">CSS freeCodeCamp Course.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+            <div class="courseBox">
+                <img src="https://lorneonlinecourse.com/wp-content/uploads/2022/11/1607606304WC62rziUJw.png" alt="">
+                <p id="courseTitle">JAVA Beginner</p>
+                <p id="courseDetails">JAVA Course with Projects.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+            <div class="courseBox">
+                <img src="https://i.ytimg.com/vi/nYfnce7MRgg/maxresdefault.jpg" alt="">
+                <p id="courseTitle">Ethical Hacking 2023</p>
+                <p id="courseDetails">Ethical Hacking Online Full Course 2023.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+        </div>
+
+        <div class="courseContainer">
+            <div class="courseBox">
+                <img src="https://slainstitute.com/wp-content/uploads/2021/08/software-testing-course.png" alt="">
+                <p id="courseTitle">Software Testing Course</p>
+                <p id="courseDetails">Software Tester Complete Course.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+            <div class="courseBox">
+                <img src="https://slainstitute.com/wp-content/uploads/2021/08/machine-learning-course.png" alt="">
+                <p id="courseTitle">Machine Learning Course</p>
+                <p id="courseDetails">The Best ML Course.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+            <div class="courseBox">
+                <img src="https://slainstitute.com/wp-content/uploads/2021/08/data-science-training.png" alt="">
+                <p id="courseTitle">Data Science Course</p>
+                <p id="courseDetails">The Basic Data Science Complete Course.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+        </div>
+
+        <div class="courseContainer">
+            <div class="courseBox">
+                <img src="https://aw-test-bucket.eu-central-1.linodeobjects.com/raw-coding-learning/bcc4a8ff-84e6-4cdc-b742-a4a6a97fa738/thumbnail" alt="">
+                <p id="courseTitle">The C# Programming Course</p>
+                <p id="courseDetails">C# by freeCodeCamp.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+            <div class="courseBox">
+                <img src="https://i.ytimg.com/vi/yyUHQIec83I/maxresdefault.jpg" alt="">
+                <p id="courseTitle">GO Full Course</p>
+                <p id="courseDetails">Learn GO instantly.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+            <div class="courseBox">
+                <img src="https://webcademy.in/wp-content/uploads/elementor/thumbs/Colourful-Fitness-YouTube-Thumbnail-4-pyrfkbjyyk47k2z5aq89v7vksdndwlv9n6viuv0k20.png" alt="">
+                <p id="courseTitle">Digital Marketing Basics</p>
+                <p id="courseDetails">The Digital Marking Course.</p>
+                <p id="courseBtn">Get Now</p>
+            </div>
+        </div>
+
+        <hr id="coursesBar">
+        <div>
+            <div id="courseLoadMore">
+                <p>Load More...</p>
+            </div>
+        </div>
+        <hr id="coursesBar">
+
+    </div>
+
+    <div class="aboutus" id="aboutus">
+        <h2>About Us</h2>
+        <hr id="aboutBar">
+        <div class="aboutContainer">
+            <div class="aboutBox">
+                <p id="aboutBoxHeader">Improving lives through learning
+                </p>
+                <p id="aboutBoxPara">Whether you want to learn or to share what you know, you’ve come to the right place. As a global destination for online learning, we empower organizations and individuals with flexible and effective skill development.
+                </p>
+            </div>    
+            <img src="https://static.vecteezy.com/system/resources/previews/010/872/496/original/3d-online-learning-discussion-illustration-png.png" alt="">
+        </div>
+        <div id="aboutCards">
+            <div class="aboutCardsContents">
+                <p class="aboutCardTitle">50M</p>
+                <p class="aboutCardPara">Learners</p>
+            </div>
+            <div class="aboutCardsContents">
+                <p class="aboutCardTitle">100+</p>
+                <p class="aboutCardPara">Instructors</p>
+            </div>
+            <div class="aboutCardsContents">
+                <p class="aboutCardTitle">500+</p>
+                <p class="aboutCardPara">Courses</p>
+            </div>
+            <div class="aboutCardsContents">
+                <p class="aboutCardTitle">100</p>
+                <p class="aboutCardPara">Languages</p>
+            </div>
+            <div class="aboutCardsContents">
+                <p class="aboutCardTitle">1000+</p>
+                <p class="aboutCardPara">Companies</p>
+            </div>
+
+        </div>
+        <hr id="aboutBar">
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <hr id="contactBar">
+        <div id="contactDetails">
+            <p>E-mail : contact@eshaala.com</p>
+            <p>Phone No.: +91 99999 99999 </p>
+            <p>Address : Block E, Street No. 6, ABC Complext, New Delhi, India</p>
+        </div>
+        <hr id="contactBar">
+        
+        <h2>Help & Support</h2>
+        <hr id="contactBar">
+        <div id="helpsupport">
+            <div class="hscards">
+                <img src="https://static.vecteezy.com/system/resources/previews/021/062/046/original/doubt-icon-design-free-vector.jpg" alt="">
+                <p class="hscTitle">
+                    Doubt Engine
+                </p>
+                <p class="hscTag">
+                    Best in class Doubt Clearing Engine based on AI to solve you all doubts.
+                </p>
+            </div>
+            <div class="hscards">
+                <img src="https://static.vecteezy.com/system/resources/previews/013/659/647/non_2x/community-clip-art-icon-vector.jpg" alt="">
+                <p class="hscTitle">
+                    200+ Community
+                </p>
+                <p class="hscTag">
+                    Experienced and Interactive Developers Community.
+                </p></div>
+                <div class="hscards">
+                <img src="https://static.vecteezy.com/system/resources/previews/016/314/360/original/transparent-24-hour-service-free-png.png" alt="">
+                <p class="hscTitle">
+                    24x7 Support
+                </p>
+                <p class="hscTag">
+                    All time support whenever you need it.
+                </p></div>
+        </div>
+        <hr id="contactBar">
+
+        <h2>Doubt Section</h2>
+        <hr id="contactBar">
+        <div id="doubt">
+            Name :<br>
+            <input type="text" name="" id="nameField" placeholder="Enter your name here">
+            <br>
+            Category :<br>
+            <input type="text" name="" id="categoryField" placeholder="Enter category of question">
+            <br>
+            Elaborate Doubt :<br>
+            <input type="text" name="" id="elaborate"  placeholder="Explain your doubt in full words">
+            <br>
+            <div>
+                <p id="sendDoubt">Send Doubt</p>
+            </div>
+        </div>
+        <hr id="contactBar">
+    </div>
+    <div class="loginsignup" id="loginsignup">
+        <div id="loginBox">
+            <p id="emailLogin">E-mail</p>
+            <input type="text" placeholder="Enter email">
+            <p id="password">Password</p>
+            <input type="password" placeholder="Password">
+            <p id="loginBtn">Login</p>
+            <p id="signup">New User? <a href="#">Signup</a></p>
+        </div>
+        <hr id="coursesBar">
+
+    </div>
+
+    <footer id="footerBox">
+        <div id="footerDiv1">
+            <ul>
+                <li><a href="">Business</a></li>
+                <li><a href="">Teaching</a></li>
+                <li><a href="">Application</a></li>
+                <li><a href="">Help and Support</a></li>
+            </ul>
+        </div>
+        <div id="footerDiv2">
+            <ul>
+                <li><a href="">Career</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Learners</a></li>
+                <li><a href="">Partners</a></li>
+            </ul>
+        </div>
+        <div id="footerDiv3">
+            <ul>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Cookie settings</a></li>
+                <li><a href="">Copyright 2023</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

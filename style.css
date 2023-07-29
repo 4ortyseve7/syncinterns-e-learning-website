@@ -1,0 +1,593 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#headerTop{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 30px auto;
+}
+#logoText{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(100, 100, 100);
+}
+#headerTop ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+#headerTop ul li{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+#headerTop a{
+    text-decoration: none;
+}
+
+#LoginSignup{
+    background-color: rgba(0, 255, 0, 0.4);
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 0 20px;
+
+    display: block;
+}
+#LoginSignup:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid rgb(0, 113, 0);
+}
+
+#headerBar{
+    width: 85%;
+    margin: 20px auto;
+}
+
+#mainDiv{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+#mainDiv h1{
+    font-size: 12vh;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    margin: auto;
+}
+#tagline, #features{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+#mainDiv input{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    margin: 20px;
+    margin-left: 35%;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(240, 240, 240);
+}
+#welcomeImage{
+    display: flex;
+    height: 70vh;
+    margin: auto;
+}
+#mainDivBar{
+    margin: 30px;
+}
+.homeContents{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+}
+#mainDiv ul li img{
+    height: 70px;    
+}
+#mainDiv #cnu{
+    font-size: 60px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    list-style: none;
+    text-decoration: underline;
+}
+#mainDiv ul li{
+    padding: 20px;
+    margin-left: 30px;
+    display: flex;
+}
+#mainDiv ul li span{
+    position: relative;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+#manymore{
+    background-color: rgba(231, 188, 255, 0.4);
+    border: 1px solid rgb(191, 0, 255);
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+}
+#manymore:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgb(71, 0, 80);
+    cursor: pointer;
+}
+.popcourses{
+    height: 600px;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+}
+.popcourses .coursecard{
+    border-radius: 20px;
+    margin: 10px;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.coursecard img{
+    border-radius: 50px;
+    height: 60%;
+}
+#coursecardTitle{
+    text-align: center;
+    margin: 10px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+#coursecardDetails{
+    text-align: center;
+    font-size: 25px;
+}
+#coursecardBtn{
+    background-color: rgba(231, 188, 255, 0.4);
+    border: 1px solid rgb(191, 0, 255);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 30px;
+}
+#ondemBtn{
+    background-color: rgba(231, 188, 255, 0.4);
+    border: 1px solid rgb(191, 0, 255);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    padding: 10px;
+    font-size: 25px;
+}
+#coursecardBtn:hover, #ondemBtn:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgb(71, 0, 80);
+    cursor: pointer;
+}
+.ondem{
+    height: 400px;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.ondem .ondemcard{
+    margin: auto;
+    margin: 10px;    
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.ondem img{
+    border-radius: 5px;
+    height: 200px;
+}
+#ondemTitle{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#footerBox{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+#footerBox ul li{
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+}
+#footerBox ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.certification{
+    width: 90%;
+    display: none;
+}
+#certiBar{
+    width: 85%;
+    margin: 20px auto;
+}
+.certification h2{
+    font-size: 60px;
+    text-align: center;
+    margin: 30px;
+}
+.certiBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.cBleft{
+    height: 150px;
+    width: 15%;
+    padding-top: 25px;
+    padding-left: 4%;
+    float: left;
+}
+.cBleft img{
+    height: 100px;
+}
+.cBmid{
+    float: right;
+    height: 150px;
+    width: 25%;
+    padding: 30px;
+}
+.cBmid p{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(135, 200, 135);
+    border: 2px solid green;
+    height: 100%;
+    padding-top: 25px;
+    border-radius: 100px;
+}
+.cBmid p:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid green;
+    cursor: pointer;
+}
+.cBright{
+    float: right;
+    height: 150px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.cBright #testTitle{
+    font-size: 45px;
+    
+}
+.cBright #testDetail{
+    font-size: 25px;
+}
+#certLoadMore{
+    margin: 20px auto;
+    width: fit-content;
+    padding: 30px 50px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    background-color: rgb(135, 200, 135);
+    border: 2px solid green;
+    border-radius: 100px;
+}
+#certLoadMore:hover{
+    margin: 20px auto;
+    width: fit-content;
+    padding: 30px 50px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(3, 64, 3);
+    border-radius: 100px;
+}
+
+.courses{
+    width: 90%;
+    margin: auto;
+    display: none;
+}
+
+.courses h2{
+    font-size: 60px;
+    text-align: center;
+    margin: 30px;
+}
+#coursesBar{
+    width: 85%;
+    margin: 20px auto;
+}
+.courseContainer{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.courseBox{
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.courseBox img{
+    width: 100%;
+    border-radius: 10px;
+}
+.courseBox #courseTitle{
+    font-size: 30px;
+    text-align: center;
+}
+.courseBox #courseDetails{
+    font-size: 20px;
+    text-align: center;
+}
+.courseBox #courseBtn{
+    background-color: rgb(135, 200, 135);
+    border: 2px solid green;   
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    padding:10px;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+}
+.courseBox #courseBtn:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(3, 64, 3);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    padding:10px;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+#courseLoadMore{
+    margin: 20px auto;
+    width: fit-content;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    background-color: rgb(135, 200, 135);
+    border: 2px solid green;
+    border-radius: 20px;
+}
+#courseLoadMore:hover{
+    margin: 20px auto;
+    width: fit-content;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(3, 64, 3);
+    border-radius: 20px;
+}
+
+
+.aboutus{
+    width: 90%;
+    margin: auto;
+    display: none;
+}
+
+.aboutus h2{
+    font-size: 60px;
+    text-align: center;
+    margin: 30px;
+}
+#aboutBar{
+    width: 85%;
+    margin: 20px auto;
+}
+.aboutContainer{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutBox{
+    width: 70%;
+    padding: 90px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.aboutContainer img{
+    width: 30%;
+}
+#aboutBoxHeader{
+    font-size: 50px;
+}
+#aboutBoxPara{
+    font-size: 30px;
+}
+
+#aboutCards{
+    margin: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutCardsContents{
+    box-shadow: 1px 1px 10px 10px rgba(204, 225, 242, 0.3);
+    background-color: rgba(240, 248, 255, 0.4);
+    border-radius: 20px;
+    height: 100px;
+    width: 15%;
+    padding: 20px;
+}
+.aboutCardTitle{
+    font-size: 30px;
+    text-align: center;
+}
+.aboutCardPara{
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact{
+    width: 90%;
+    margin: auto;
+    display: none;
+}
+.contact h2{
+    font-size: 60px;
+    text-align: center;
+    margin: 30px;
+}
+#contactBar{
+    width: 85%;
+    margin: 20px auto;
+}
+#contactDetails{
+    width: 50%;
+    margin: auto;
+}
+#contactDetails p{
+    font-size: 20px;
+    text-align: center;
+}
+#helpsupport{
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.hscards{
+    width: 30%;
+    text-align: center;
+    align-items: center;
+}
+.hscards img{
+    height: 100px;
+    margin: 20px;
+}
+.hscTitle{
+    font-size: 30px;
+}
+.hscTag{
+    font-size: 20px;
+}
+
+#doubt{
+    width: 60%;
+    margin: auto;
+    font-size: 30px;
+}
+#nameField, #categoryField{
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    padding-left: 10px;
+    margin: 20px;
+}
+#elaborate{
+    width: 100%;
+    height: 200px;
+    font-size: 25px;
+    padding-left: 10px;
+    margin: 20px;
+}
+#sendDoubt{
+    background-color: rgb(135, 200, 135);
+    border: 2px solid green;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+}
+#sendDoubt:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(3, 64, 3);
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.loginsignup{
+    width: 40%;
+    height: 50vh;
+    margin: auto;
+    display: none;
+}
+#loginBox{
+    width: 50%;
+    margin: 30px auto;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(105, 255, 105, 0.377);
+    padding: 40px;
+}
+#loginBox input{
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#loginBtn{
+    background-color: rgb(135, 200, 135);
+    border: 2px solid green;
+    padding: 10px;
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#loginBtn:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(3, 64, 3);
+    padding: 10px;
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#signup{
+    text-align: center;
+    font-size: 20px;
+}
+#signup a{
+    background-color: rgb(135, 200, 135);
+    border: 2px solid green;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#signup a:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(3, 64, 3);
+    padding: 2px;
+    border-radius: 5px;
+}
